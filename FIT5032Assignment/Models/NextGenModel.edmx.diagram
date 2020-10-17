@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fee7b5a866a945f8aa9c1ae36f698820" Name="Diagram1">
+        <EntityTypeShape EntityType="NextGenDatabaseModel.Activity" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="NextGenDatabaseModel.Course" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NextGenDatabaseModel.Enrolment" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NextGenDatabaseModel.Language" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NextGenDatabaseModel.Staff" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="NextGenDatabaseModel.Student" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <AssociationConnector Association="NextGenDatabaseModel.FK_Activity_Staff" ManuallyRouted="false" />
+        <AssociationConnector Association="NextGenDatabaseModel.FK_Activity_Student" ManuallyRouted="false" />
+        <AssociationConnector Association="NextGenDatabaseModel.FK_Course_Language" ManuallyRouted="false" />
+        <AssociationConnector Association="NextGenDatabaseModel.FK_Course_Staff" ManuallyRouted="false" />
+        <AssociationConnector Association="NextGenDatabaseModel.FK_Enrolment_Course" ManuallyRouted="false" />
+        <AssociationConnector Association="NextGenDatabaseModel.FK_Enrolment_Student" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
